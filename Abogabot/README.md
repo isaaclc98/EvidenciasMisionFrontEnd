@@ -27,12 +27,13 @@ Caso: Abogabot
 ## Buyer persona
 
 ![Buyer persona](./BuyerPersona.png)
-
+Hecho con [canva](https://www.canva.com)
 ---
 
 ## Publico objetivo
 
-
+![Publico objetivo](./Publico objetivo.jpg)
+Hecho con plantilla de [Miro](https://miro.com/es/plantillas/publico-objetivo/)
 ---
 
 ## Wireframe UX
