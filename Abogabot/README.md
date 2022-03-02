@@ -33,7 +33,7 @@ Hecho con [canva](https://www.canva.com)
 
 ## Publico objetivo
 
-![PuOb](./Publico objetivo.jpg)
+![PuOb](./PublicoObjetivo.jpg)
 Hecho con plantilla de [Miro](https://miro.com/es/plantillas/publico-objetivo/)
 
 ---
