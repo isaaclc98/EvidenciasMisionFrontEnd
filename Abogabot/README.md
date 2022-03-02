@@ -26,7 +26,7 @@ Caso: Abogabot
 
 ## Buyer persona
 
-[Buyer persona](./BuyerPersona.png)
+![Buyer persona](./BuyerPersona.png)
 
 ---
 
