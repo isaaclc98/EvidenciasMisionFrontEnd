@@ -39,8 +39,9 @@ Hecho con plantilla de [Miro](https://miro.com/es/plantillas/publico-objetivo/)
 ---
 
 ## Wireframe UX
-
+![Wireframe](./Wireframe.png)
 
 ---
 
 ## UI
+![UI](./UI.png)
