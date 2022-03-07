@@ -2,3 +2,4 @@
 
 Es la maquetacion para una pasteleria ficticia [Galactic cakes] en la cual se incluye la pagina principal para la pasteleria y una pagina para que el pastelero tenga control de los pedidos y su inventario.
 
+Visita el sitio web [aqui](https://isaaclc98.github.io/PaginaPasteleria/)
