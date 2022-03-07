@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario Pastelero</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="assets/logo_R.png" alt="logo pasteleria" width="100px"></a>
+        <nav class="site-name">
+            <ul>
+                <li><a href="#Inventario">Inventario</a></li>
+                <li><a href="#Pedidos">Pedidos</a></li>                
+                <li><a href="#Contacto">Contacto</a> </li>                
+            </ul>
+        </nav>
+    </header>
+<h2>Inventario de pastelero</h2>
+<section class="tabla" >
+    <table id="Inventario">
+        <caption>Inventario de ingredientes</caption>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Tipo</th>
+                <th>Cantidad</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Chocolate</td>
+            <td>Cubierta</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>Fresa</td>
+            <td>Cubierta</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Queso</td>
+            <td>Pan</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>Crema pastelera</td>
+            <td>Extras</td>
+            <td>20</td>
+        </tr>
+    </table>
+<br>
+<br>
+    <table class="tabPedidos" id="Pedidos">
+        <caption>Pedidos</caption>
+        <thead>
+            <tr>
+                <th title="Field #1">ID</th>
+                <th title="Field #2">Nombre del Cliente</th>
+                <th title="Field #3">Nombre de pastel</th>
+                <th title="Field #4">Cantidad</th>
+                <th title="Field #5">Extras</th>
+                <th title="Field #6">Direccion</th>
+                <th title="Field #7">Contacto</th>
+                <th title="Field #8">Fecha de pedido</th>
+                <th title="Field #9">Fecha de entrega</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="right">1</td>
+                <td>Elaine Walter</td>
+                <td>Queso</td>
+                <td align="right">10</td>
+                <td>Extra</td>
+                <td>P.O. Box 650, 3728 Leo. Rd.</td>
+                <td>1-228-763-7774</td>
+                <td>Mar 2, 2021</td>
+                <td>Mar 17, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">2</td>
+                <td>Olympia Burgess</td>
+                <td>Chocolate</td>
+                <td align="right">3</td>
+                <td>Extra</td>
+                <td>757-8740 Libero Rd.</td>
+                <td>(732) 215-3167</td>
+                <td>Mar 3, 2021</td>
+                <td>Mar 24, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">3</td>
+                <td>Todd Frost</td>
+                <td>Vainilla</td>
+                <td align="right">1</td>
+                <td>Extra</td>
+                <td>P.O. Box 154, 371 Facilisis, Rd.</td>
+                <td>(570) 888-1562</td>
+                <td>Mar 9, 2021</td>
+                <td>Mar 28, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">4</td>
+                <td>Stuart Hopkins</td>
+                <td>Fresa</td>
+                <td align="right">5</td>
+                <td>Extra</td>
+                <td>165-6727 Ac Rd.</td>
+                <td>1-382-271-7214</td>
+                <td>Mar 3, 2021</td>
+                <td>Mar 24, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">5</td>
+                <td>Myra Potts</td>
+                <td>Queso</td>
+                <td align="right">3</td>
+                <td>Extra</td>
+                <td>7242 Aliquam Street</td>
+                <td>1-377-797-6470</td>
+                <td>Mar 2, 2021</td>
+                <td>Mar 20, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">6</td>
+                <td>Barrett Casey</td>
+                <td>Chocolate</td>
+                <td align="right">6</td>
+                <td>Extra</td>
+                <td>Ap #466-8598 Erat Street</td>
+                <td>1-539-487-6670</td>
+                <td>Mar 4, 2021</td>
+                <td>Mar 28, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">7</td>
+                <td>Irene Roy</td>
+                <td>Vainilla</td>
+                <td align="right">6</td>
+                <td>Extra</td>
+                <td>3783 Nisi Ave</td>
+                <td>1-641-867-1543</td>
+                <td>Mar 1, 2021</td>
+                <td>Mar 14, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">8</td>
+                <td>Neville Burks</td>
+                <td>Fresa</td>
+                <td align="right">2</td>
+                <td>Extra</td>
+                <td>5059 Cursus Street</td>
+                <td>(812) 312-9461</td>
+                <td>Mar 3, 2021</td>
+                <td>Mar 19, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">9</td>
+                <td>Imelda Suarez</td>
+                <td>Queso</td>
+                <td align="right">7</td>
+                <td>Extra</td>
+                <td>935 Nec, Avenue</td>
+                <td>(368) 156-8591</td>
+                <td>Mar 4, 2021</td>
+                <td>Mar 27, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">10</td>
+                <td>Adena Smith</td>
+                <td>Chocolate</td>
+                <td align="right">1</td>
+                <td>Extra</td>
+                <td>324-8444 Sagittis Avenue</td>
+                <td>(520) 731-4877</td>
+                <td>Mar 1, 2021</td>
+                <td>Mar 28, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">11</td>
+                <td>Regina Todd</td>
+                <td>Vainilla</td>
+                <td align="right">3</td>
+                <td>Extra</td>
+                <td>7647 Eu Av.</td>
+                <td>1-847-917-3168</td>
+                <td>Mar 3, 2021</td>
+                <td>Mar 13, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">12</td>
+                <td>Florence Allen</td>
+                <td>Fresa</td>
+                <td align="right">4</td>
+                <td>Extra</td>
+                <td>Ap #240-425 Quisque Road</td>
+                <td>(658) 551-4727</td>
+                <td>Mar 7, 2021</td>
+                <td>Mar 14, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">13</td>
+                <td>Alexandra Joyce</td>
+                <td>Queso</td>
+                <td align="right">4</td>
+                <td>Extra</td>
+                <td>Ap #470-9879 Dapibus Rd.</td>
+                <td>(723) 817-3451</td>
+                <td>Mar 3, 2021</td>
+                <td>Mar 26, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">14</td>
+                <td>Declan Nguyen</td>
+                <td>Chocolate</td>
+                <td align="right">4</td>
+                <td>Extra</td>
+                <td>471-5151 Tellus. Ave</td>
+                <td>1-533-346-8562</td>
+                <td>Mar 2, 2021</td>
+                <td>Mar 21, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">15</td>
+                <td>Lamar Kline</td>
+                <td>Vainilla</td>
+                <td align="right">5</td>
+                <td>Extra</td>
+                <td>517-4091 Mattis Avenue</td>
+                <td>(478) 315-8742</td>
+                <td>Mar 9, 2021</td>
+                <td>Mar 29, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">16</td>
+                <td>Sandra Harrison</td>
+                <td>Fresa</td>
+                <td align="right">10</td>
+                <td>Extra</td>
+                <td>Ap #826-9536 Eu Rd.</td>
+                <td>1-522-227-5103</td>
+                <td>Mar 6, 2021</td>
+                <td>Mar 15, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">17</td>
+                <td>Samson Burt</td>
+                <td>Queso</td>
+                <td align="right">3</td>
+                <td>Extra</td>
+                <td>5183 A, Rd.</td>
+                <td>(567) 427-6653</td>
+                <td>Mar 6, 2021</td>
+                <td>Mar 17, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">18</td>
+                <td>Noah Atkinson</td>
+                <td>Chocolate</td>
+                <td align="right">5</td>
+                <td>Extra</td>
+                <td>356-8324 Magnis Av.</td>
+                <td>1-961-658-6383</td>
+                <td>Mar 6, 2021</td>
+                <td>Mar 28, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">19</td>
+                <td>Ulla Miranda</td>
+                <td>Vainilla</td>
+                <td align="right">4</td>
+                <td>Extra</td>
+                <td>990-4005 Ac, Rd.</td>
+                <td>1-633-681-2722</td>
+                <td>Mar 8, 2021</td>
+                <td>Mar 12, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">20</td>
+                <td>Delilah Craft</td>
+                <td>Fresa</td>
+                <td align="right">7</td>
+                <td>Extra</td>
+                <td>P.O. Box 593, 5685 Diam. Rd.</td>
+                <td>1-567-261-9979</td>
+                <td>Mar 4, 2021</td>
+                <td>Mar 23, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">21</td>
+                <td>Shafira Gibbs</td>
+                <td>Queso</td>
+                <td align="right">6</td>
+                <td>Extra</td>
+                <td>P.O. Box 649, 9733 Vel Rd.</td>
+                <td>(452) 784-4623</td>
+                <td>Mar 6, 2021</td>
+                <td>Mar 28, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">22</td>
+                <td>Samantha Elliott</td>
+                <td>Chocolate</td>
+                <td align="right">7</td>
+                <td>Extra</td>
+                <td>Ap #421-9540 Duis Street</td>
+                <td>(932) 676-1114</td>
+                <td>Mar 6, 2021</td>
+                <td>Mar 23, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">23</td>
+                <td>Althea Hanson</td>
+                <td>Vainilla</td>
+                <td align="right">1</td>
+                <td>Extra</td>
+                <td>Ap #460-8282 Malesuada Rd.</td>
+                <td>1-941-608-0343</td>
+                <td>Mar 9, 2021</td>
+                <td>Mar 21, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">24</td>
+                <td>Aurora Lancaster</td>
+                <td>Fresa</td>
+                <td align="right">8</td>
+                <td>Extra</td>
+                <td>157-3205 Eget Avenue</td>
+                <td>1-838-575-2129</td>
+                <td>Mar 6, 2021</td>
+                <td>Mar 28, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">25</td>
+                <td>Buckminster Combs</td>
+                <td>Queso</td>
+                <td align="right">5</td>
+                <td>Extra</td>
+                <td>Ap #656-9891 Consequat Street</td>
+                <td>1-538-232-5542</td>
+                <td>Mar 2, 2021</td>
+                <td>Mar 26, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">26</td>
+                <td>Lila Todd</td>
+                <td>Chocolate</td>
+                <td align="right">2</td>
+                <td>Extra</td>
+                <td>Ap #602-1864 Metus Street</td>
+                <td>(347) 400-2622</td>
+                <td>Mar 3, 2021</td>
+                <td>Mar 24, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">27</td>
+                <td>Gary Jones</td>
+                <td>Vainilla</td>
+                <td align="right">9</td>
+                <td>Extra</td>
+                <td>P.O. Box 425, 9473 Ultricies Av.</td>
+                <td>(949) 580-9142</td>
+                <td>Mar 5, 2021</td>
+                <td>Mar 18, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">28</td>
+                <td>Kirk Stein</td>
+                <td>Fresa</td>
+                <td align="right">2</td>
+                <td>Extra</td>
+                <td>210-1071 Nascetur Av.</td>
+                <td>1-679-315-0467</td>
+                <td>Mar 9, 2021</td>
+                <td>Mar 22, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">29</td>
+                <td>Lilah Mckinney</td>
+                <td>Queso</td>
+                <td align="right">4</td>
+                <td>Extra</td>
+                <td>P.O. Box 442, 2225 Non St.</td>
+                <td>(346) 208-2245</td>
+                <td>Mar 3, 2021</td>
+                <td>Mar 17, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">30</td>
+                <td>Kasper Walsh</td>
+                <td>Chocolate</td>
+                <td align="right">5</td>
+                <td>Extra</td>
+                <td>299-2328 Et St.</td>
+                <td>1-819-461-0624</td>
+                <td>Mar 3, 2021</td>
+                <td>Mar 26, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">31</td>
+                <td>Addison Decker</td>
+                <td>Vainilla</td>
+                <td align="right">8</td>
+                <td>Extra</td>
+                <td>P.O. Box 149, 2488 A Av.</td>
+                <td>(533) 617-8754</td>
+                <td>Mar 8, 2021</td>
+                <td>Mar 20, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">32</td>
+                <td>Reese Stephenson</td>
+                <td>Fresa</td>
+                <td align="right">2</td>
+                <td>Extra</td>
+                <td>272-8863 Fusce Avenue</td>
+                <td>(412) 945-7776</td>
+                <td>Mar 6, 2021</td>
+                <td>Mar 11, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">33</td>
+                <td>Gail Jones</td>
+                <td>Queso</td>
+                <td align="right">6</td>
+                <td>Extra</td>
+                <td>Ap #703-870 Quisque Rd.</td>
+                <td>1-824-274-9253</td>
+                <td>Mar 3, 2021</td>
+                <td>Mar 14, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">34</td>
+                <td>Edan Thomas</td>
+                <td>Chocolate</td>
+                <td align="right">5</td>
+                <td>Extra</td>
+                <td>586-7682 Eget, Rd.</td>
+                <td>1-326-688-6832</td>
+                <td>Mar 4, 2021</td>
+                <td>Mar 23, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">35</td>
+                <td>Urielle Murphy</td>
+                <td>Vainilla</td>
+                <td align="right">2</td>
+                <td>Extra</td>
+                <td>Ap #838-5937 Molestie. Ave</td>
+                <td>1-782-841-2538</td>
+                <td>Mar 5, 2021</td>
+                <td>Mar 24, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">36</td>
+                <td>Hyatt Mckenzie</td>
+                <td>Fresa</td>
+                <td align="right">9</td>
+                <td>Extra</td>
+                <td>Ap #486-7614 Congue Rd.</td>
+                <td>1-604-155-1434</td>
+                <td>Mar 7, 2021</td>
+                <td>Mar 10, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">37</td>
+                <td>Robert Spence</td>
+                <td>Queso</td>
+                <td align="right">5</td>
+                <td>Extra</td>
+                <td>632-7614 Curabitur Street</td>
+                <td>1-774-870-6534</td>
+                <td>Mar 9, 2021</td>
+                <td>Mar 23, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">38</td>
+                <td>Hiram Bradshaw</td>
+                <td>Chocolate</td>
+                <td align="right">5</td>
+                <td>Extra</td>
+                <td>241-979 Consectetuer St.</td>
+                <td>(798) 735-9738</td>
+                <td>Mar 5, 2021</td>
+                <td>Mar 28, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">39</td>
+                <td>Herman Carpenter</td>
+                <td>Vainilla</td>
+                <td align="right">6</td>
+                <td>Extra</td>
+                <td>166 Nunc Avenue</td>
+                <td>1-405-753-3257</td>
+                <td>Mar 4, 2021</td>
+                <td>Mar 24, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">40</td>
+                <td>Jada Bowen</td>
+                <td>Fresa</td>
+                <td align="right">1</td>
+                <td>Extra</td>
+                <td>Ap #544-5218 Tellus St.</td>
+                <td>(737) 247-2601</td>
+                <td>Mar 5, 2021</td>
+                <td>Mar 10, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">41</td>
+                <td>Brooke Wynn</td>
+                <td>Queso</td>
+                <td align="right">6</td>
+                <td>Extra</td>
+                <td>263 Velit Rd.</td>
+                <td>(483) 120-6246</td>
+                <td>Mar 1, 2021</td>
+                <td>Mar 17, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">42</td>
+                <td>Colette Rosales</td>
+                <td>Chocolate</td>
+                <td align="right">7</td>
+                <td>Extra</td>
+                <td>267-5904 Tincidunt Rd.</td>
+                <td>(577) 653-1567</td>
+                <td>Mar 4, 2021</td>
+                <td>Mar 12, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">43</td>
+                <td>Claire Long</td>
+                <td>Vainilla</td>
+                <td align="right">5</td>
+                <td>Extra</td>
+                <td>679-8366 Arcu Avenue</td>
+                <td>1-261-445-1353</td>
+                <td>Mar 6, 2021</td>
+                <td>Mar 21, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">44</td>
+                <td>Astra Kennedy</td>
+                <td>Fresa</td>
+                <td align="right">7</td>
+                <td>Extra</td>
+                <td>722-2389 Mattis Road</td>
+                <td>(271) 789-7287</td>
+                <td>Mar 2, 2021</td>
+                <td>Mar 11, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">45</td>
+                <td>Finn Klein</td>
+                <td>Queso</td>
+                <td align="right">7</td>
+                <td>Extra</td>
+                <td>Ap #108-5481 Purus St.</td>
+                <td>(775) 378-4072</td>
+                <td>Mar 3, 2021</td>
+                <td>Mar 23, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">46</td>
+                <td>Shannon Orr</td>
+                <td>Chocolate</td>
+                <td align="right">7</td>
+                <td>Extra</td>
+                <td>957-5172 Convallis Rd.</td>
+                <td>1-439-756-7561</td>
+                <td>Mar 2, 2021</td>
+                <td>Mar 16, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">47</td>
+                <td>Linda Cruz</td>
+                <td>Vainilla</td>
+                <td align="right">1</td>
+                <td>Extra</td>
+                <td>533-3604 Sed, Avenue</td>
+                <td>(599) 285-0295</td>
+                <td>Mar 5, 2021</td>
+                <td>Mar 23, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">48</td>
+                <td>Trevor Knight</td>
+                <td>Fresa</td>
+                <td align="right">3</td>
+                <td>Extra</td>
+                <td>898-8003 Et Rd.</td>
+                <td>(749) 561-0531</td>
+                <td>Mar 8, 2021</td>
+                <td>Mar 29, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">49</td>
+                <td>Ivory Garrett</td>
+                <td>Queso</td>
+                <td align="right">10</td>
+                <td>Extra</td>
+                <td>763-1353 Montes, Avenue</td>
+                <td>(722) 600-6451</td>
+                <td>Mar 6, 2021</td>
+                <td>Mar 29, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">50</td>
+                <td>Ann Cervantes</td>
+                <td>Chocolate</td>
+                <td align="right">6</td>
+                <td>Extra</td>
+                <td>651-6046 Est. Rd.</td>
+                <td>1-824-645-4446</td>
+                <td>Mar 8, 2021</td>
+                <td>Mar 25, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">51</td>
+                <td>Leroy Nelson</td>
+                <td>Vainilla</td>
+                <td align="right">8</td>
+                <td>Extra</td>
+                <td>503-7079 Enim. Rd.</td>
+                <td>1-557-765-1117</td>
+                <td>Mar 8, 2021</td>
+                <td>Mar 16, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">52</td>
+                <td>Cameron Pope</td>
+                <td>Fresa</td>
+                <td align="right">6</td>
+                <td>Extra</td>
+                <td>2476 Ipsum Av.</td>
+                <td>(564) 825-5173</td>
+                <td>Mar 4, 2021</td>
+                <td>Mar 15, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">53</td>
+                <td>Cole Hebert</td>
+                <td>Queso</td>
+                <td align="right">5</td>
+                <td>Extra</td>
+                <td>787 Metus. Av.</td>
+                <td>1-630-416-7818</td>
+                <td>Mar 8, 2021</td>
+                <td>Mar 21, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">54</td>
+                <td>Ralph Rice</td>
+                <td>Chocolate</td>
+                <td align="right">2</td>
+                <td>Extra</td>
+                <td>528-901 Cum Ave</td>
+                <td>1-941-254-4494</td>
+                <td>Mar 5, 2021</td>
+                <td>Mar 10, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">55</td>
+                <td>Malachi Allen</td>
+                <td>Vainilla</td>
+                <td align="right">9</td>
+                <td>Extra</td>
+                <td>696-4369 Ipsum Avenue</td>
+                <td>(917) 736-2002</td>
+                <td>Mar 5, 2021</td>
+                <td>Mar 22, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">56</td>
+                <td>Tad Crawford</td>
+                <td>Fresa</td>
+                <td align="right">6</td>
+                <td>Extra</td>
+                <td>876-7826 Est Rd.</td>
+                <td>1-754-615-9563</td>
+                <td>Mar 7, 2021</td>
+                <td>Mar 20, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">57</td>
+                <td>Lael Leon</td>
+                <td>Queso</td>
+                <td align="right">9</td>
+                <td>Extra</td>
+                <td>5509 Eleifend. Rd.</td>
+                <td>1-414-552-6084</td>
+                <td>Mar 2, 2021</td>
+                <td>Mar 24, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">58</td>
+                <td>Florence Wyatt</td>
+                <td>Chocolate</td>
+                <td align="right">10</td>
+                <td>Extra</td>
+                <td>Ap #219-1726 Lacinia. Street</td>
+                <td>1-531-635-9332</td>
+                <td>Mar 9, 2021</td>
+                <td>Mar 10, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">59</td>
+                <td>Kibo Farley</td>
+                <td>Vainilla</td>
+                <td align="right">9</td>
+                <td>Extra</td>
+                <td>5794 Magna. Av.</td>
+                <td>(755) 278-3551</td>
+                <td>Mar 1, 2021</td>
+                <td>Mar 15, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">60</td>
+                <td>Macy Hatfield</td>
+                <td>Fresa</td>
+                <td align="right">5</td>
+                <td>Extra</td>
+                <td>P.O. Box 936, 3981 Ipsum. Avenue</td>
+                <td>1-817-306-6734</td>
+                <td>Mar 8, 2021</td>
+                <td>Mar 18, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">61</td>
+                <td>Vanna O&#39;Neill</td>
+                <td>Queso</td>
+                <td align="right">6</td>
+                <td>Extra</td>
+                <td>5620 Eu Rd.</td>
+                <td>1-418-344-8432</td>
+                <td>Mar 8, 2021</td>
+                <td>Mar 17, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">62</td>
+                <td>Jade Cotton</td>
+                <td>Chocolate</td>
+                <td align="right">2</td>
+                <td>Extra</td>
+                <td>275-7029 Justo Road</td>
+                <td>1-823-563-7178</td>
+                <td>Mar 3, 2021</td>
+                <td>Mar 12, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">63</td>
+                <td>Charissa Duke</td>
+                <td>Vainilla</td>
+                <td align="right">8</td>
+                <td>Extra</td>
+                <td>3216 Libero Ave</td>
+                <td>(675) 302-8259</td>
+                <td>Mar 8, 2021</td>
+                <td>Mar 12, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">64</td>
+                <td>Michelle Brady</td>
+                <td>Fresa</td>
+                <td align="right">8</td>
+                <td>Extra</td>
+                <td>Ap #820-8912 Fringilla. St.</td>
+                <td>1-225-820-4662</td>
+                <td>Mar 9, 2021</td>
+                <td>Mar 29, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">65</td>
+                <td>Abra Wolf</td>
+                <td>Queso</td>
+                <td align="right">6</td>
+                <td>Extra</td>
+                <td>895-5684 Quisque Rd.</td>
+                <td>(760) 927-2754</td>
+                <td>Mar 10, 2021</td>
+                <td>Mar 20, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">66</td>
+                <td>Brenden Banks</td>
+                <td>Chocolate</td>
+                <td align="right">4</td>
+                <td>Extra</td>
+                <td>P.O. Box 194, 3589 Ligula Road</td>
+                <td>1-351-641-2768</td>
+                <td>Mar 7, 2021</td>
+                <td>Mar 12, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">67</td>
+                <td>Rafael William</td>
+                <td>Vainilla</td>
+                <td align="right">10</td>
+                <td>Extra</td>
+                <td>3748 Lacus Rd.</td>
+                <td>(766) 367-9683</td>
+                <td>Mar 2, 2021</td>
+                <td>Mar 16, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">68</td>
+                <td>Jack Mcknight</td>
+                <td>Fresa</td>
+                <td align="right">1</td>
+                <td>Extra</td>
+                <td>672-1882 Elit. Ave</td>
+                <td>1-218-634-7356</td>
+                <td>Mar 10, 2021</td>
+                <td>Mar 14, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">69</td>
+                <td>Gary Carr</td>
+                <td>Queso</td>
+                <td align="right">3</td>
+                <td>Extra</td>
+                <td>5711 Lobortis St.</td>
+                <td>(885) 174-6558</td>
+                <td>Mar 5, 2021</td>
+                <td>Mar 26, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">70</td>
+                <td>Tana Gill</td>
+                <td>Chocolate</td>
+                <td align="right">2</td>
+                <td>Extra</td>
+                <td>812-2611 Pellentesque Street</td>
+                <td>1-826-172-3433</td>
+                <td>Mar 8, 2021</td>
+                <td>Mar 22, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">71</td>
+                <td>Jesse Preston</td>
+                <td>Vainilla</td>
+                <td align="right">4</td>
+                <td>Extra</td>
+                <td>600-7427 Tempus St.</td>
+                <td>(918) 951-7937</td>
+                <td>Mar 9, 2021</td>
+                <td>Mar 29, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">72</td>
+                <td>Colette Chavez</td>
+                <td>Fresa</td>
+                <td align="right">3</td>
+                <td>Extra</td>
+                <td>628-488 Vulputate Av.</td>
+                <td>1-805-632-9761</td>
+                <td>Mar 5, 2021</td>
+                <td>Mar 28, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">73</td>
+                <td>Judith Booker</td>
+                <td>Queso</td>
+                <td align="right">6</td>
+                <td>Extra</td>
+                <td>2222 Est Rd.</td>
+                <td>1-547-834-3176</td>
+                <td>Mar 8, 2021</td>
+                <td>Mar 29, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">74</td>
+                <td>Bruce Whitfield</td>
+                <td>Chocolate</td>
+                <td align="right">1</td>
+                <td>Extra</td>
+                <td>Ap #872-9182 Tellus St.</td>
+                <td>(534) 114-0626</td>
+                <td>Mar 4, 2021</td>
+                <td>Mar 14, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">75</td>
+                <td>Xaviera Cline</td>
+                <td>Vainilla</td>
+                <td align="right">5</td>
+                <td>Extra</td>
+                <td>4950 Erat, Ave</td>
+                <td>(483) 758-2444</td>
+                <td>Mar 7, 2021</td>
+                <td>Mar 28, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">76</td>
+                <td>Macey Richard</td>
+                <td>Fresa</td>
+                <td align="right">4</td>
+                <td>Extra</td>
+                <td>Ap #577-8954 Pellentesque Avenue</td>
+                <td>1-381-563-7556</td>
+                <td>Mar 4, 2021</td>
+                <td>Mar 26, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">77</td>
+                <td>Doris Dillon</td>
+                <td>Queso</td>
+                <td align="right">8</td>
+                <td>Extra</td>
+                <td>P.O. Box 391, 7252 Venenatis Av.</td>
+                <td>1-512-516-5713</td>
+                <td>Mar 7, 2021</td>
+                <td>Mar 11, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">78</td>
+                <td>Berk Bradley</td>
+                <td>Chocolate</td>
+                <td align="right">2</td>
+                <td>Extra</td>
+                <td>437-6405 Vitae Rd.</td>
+                <td>(837) 648-2915</td>
+                <td>Mar 3, 2021</td>
+                <td>Mar 11, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">79</td>
+                <td>Ursula Hampton</td>
+                <td>Vainilla</td>
+                <td align="right">2</td>
+                <td>Extra</td>
+                <td>9352 Justo Street</td>
+                <td>1-762-458-5974</td>
+                <td>Mar 4, 2021</td>
+                <td>Mar 30, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">80</td>
+                <td>Bianca Webster</td>
+                <td>Fresa</td>
+                <td align="right">5</td>
+                <td>Extra</td>
+                <td>253-1587 Ac Street</td>
+                <td>(788) 386-2352</td>
+                <td>Mar 9, 2021</td>
+                <td>Mar 13, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">81</td>
+                <td>Bo Sweet</td>
+                <td>Queso</td>
+                <td align="right">5</td>
+                <td>Extra</td>
+                <td>P.O. Box 817, 1372 Pulvinar Rd.</td>
+                <td>(391) 339-9394</td>
+                <td>Mar 5, 2021</td>
+                <td>Mar 19, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">82</td>
+                <td>Ronan Weiss</td>
+                <td>Chocolate</td>
+                <td align="right">5</td>
+                <td>Extra</td>
+                <td>6807 Sollicitudin Avenue</td>
+                <td>1-232-192-7759</td>
+                <td>Mar 5, 2021</td>
+                <td>Mar 18, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">83</td>
+                <td>Ella Grant</td>
+                <td>Vainilla</td>
+                <td align="right">2</td>
+                <td>Extra</td>
+                <td>924-9482 Et, St.</td>
+                <td>1-536-723-0632</td>
+                <td>Mar 3, 2021</td>
+                <td>Mar 18, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">84</td>
+                <td>Angelica Davenport</td>
+                <td>Fresa</td>
+                <td align="right">10</td>
+                <td>Extra</td>
+                <td>P.O. Box 327, 5814 Eget, Street</td>
+                <td>(272) 738-5922</td>
+                <td>Mar 6, 2021</td>
+                <td>Mar 11, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">85</td>
+                <td>Kylie Chase</td>
+                <td>Queso</td>
+                <td align="right">3</td>
+                <td>Extra</td>
+                <td>621-9578 Fermentum St.</td>
+                <td>(875) 747-8331</td>
+                <td>Mar 6, 2021</td>
+                <td>Mar 18, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">86</td>
+                <td>Colby Lopez</td>
+                <td>Chocolate</td>
+                <td align="right">6</td>
+                <td>Extra</td>
+                <td>Ap #365-387 Eu Road</td>
+                <td>(232) 484-8794</td>
+                <td>Mar 4, 2021</td>
+                <td>Mar 16, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">87</td>
+                <td>Tana Schmidt</td>
+                <td>Vainilla</td>
+                <td align="right">6</td>
+                <td>Extra</td>
+                <td>Ap #123-9765 Aenean Rd.</td>
+                <td>(192) 700-5981</td>
+                <td>Mar 7, 2021</td>
+                <td>Mar 17, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">88</td>
+                <td>Raja Guzman</td>
+                <td>Fresa</td>
+                <td align="right">1</td>
+                <td>Extra</td>
+                <td>510-4677 Aliquam Road</td>
+                <td>(470) 319-1670</td>
+                <td>Mar 4, 2021</td>
+                <td>Mar 28, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">89</td>
+                <td>Shafira Singleton</td>
+                <td>Queso</td>
+                <td align="right">8</td>
+                <td>Extra</td>
+                <td>P.O. Box 436, 831 Adipiscing Avenue</td>
+                <td>1-757-823-0456</td>
+                <td>Mar 2, 2021</td>
+                <td>Mar 27, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">90</td>
+                <td>Josiah Britt</td>
+                <td>Chocolate</td>
+                <td align="right">2</td>
+                <td>Extra</td>
+                <td>6810 Luctus. Avenue</td>
+                <td>1-969-289-5771</td>
+                <td>Mar 6, 2021</td>
+                <td>Mar 26, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">91</td>
+                <td>Raven West</td>
+                <td>Vainilla</td>
+                <td align="right">7</td>
+                <td>Extra</td>
+                <td>5627 Nullam St.</td>
+                <td>(763) 553-8345</td>
+                <td>Mar 4, 2021</td>
+                <td>Mar 21, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">92</td>
+                <td>MacKenzie Noble</td>
+                <td>Fresa</td>
+                <td align="right">10</td>
+                <td>Extra</td>
+                <td>Ap #904-8690 Duis Street</td>
+                <td>(676) 882-2578</td>
+                <td>Mar 9, 2021</td>
+                <td>Mar 20, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">93</td>
+                <td>Hedda Fletcher</td>
+                <td>Queso</td>
+                <td align="right">2</td>
+                <td>Extra</td>
+                <td>Ap #230-2882 Diam Rd.</td>
+                <td>1-467-119-6758</td>
+                <td>Mar 5, 2021</td>
+                <td>Mar 14, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">94</td>
+                <td>Igor Barnes</td>
+                <td>Chocolate</td>
+                <td align="right">9</td>
+                <td>Extra</td>
+                <td>P.O. Box 553, 3465 Laoreet, Road</td>
+                <td>(681) 511-8078</td>
+                <td>Mar 2, 2021</td>
+                <td>Mar 28, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">95</td>
+                <td>Harding Carver</td>
+                <td>Vainilla</td>
+                <td align="right">3</td>
+                <td>Extra</td>
+                <td>107-8940 Amet, Av.</td>
+                <td>1-832-833-2254</td>
+                <td>Mar 4, 2021</td>
+                <td>Mar 23, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">96</td>
+                <td>Lisandra Gray</td>
+                <td>Fresa</td>
+                <td align="right">8</td>
+                <td>Extra</td>
+                <td>908-5423 Laoreet Ave</td>
+                <td>(500) 933-6364</td>
+                <td>Mar 10, 2021</td>
+                <td>Mar 29, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">97</td>
+                <td>Cruz Malone</td>
+                <td>Queso</td>
+                <td align="right">5</td>
+                <td>Extra</td>
+                <td>494-8880 Amet Av.</td>
+                <td>1-377-382-3853</td>
+                <td>Mar 6, 2021</td>
+                <td>Mar 26, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">98</td>
+                <td>Cailin Velazquez</td>
+                <td>Chocolate</td>
+                <td align="right">6</td>
+                <td>Extra</td>
+                <td>P.O. Box 757, 8380 Nunc Rd.</td>
+                <td>1-421-886-3215</td>
+                <td>Mar 8, 2021</td>
+                <td>Mar 23, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">99</td>
+                <td>Branden Mills</td>
+                <td>Vainilla</td>
+                <td align="right">7</td>
+                <td>Extra</td>
+                <td>377-2611 Nonummy Rd.</td>
+                <td>(378) 726-2934</td>
+                <td>Mar 3, 2021</td>
+                <td>Mar 11, 2021</td>
+            </tr>
+            <tr>
+                <td align="right">100</td>
+                <td>Jordan Jennings</td>
+                <td>Fresa</td>
+                <td align="right">2</td>
+                <td>Extra</td>
+                <td>260-4872 Varius St.</td>
+                <td>1-736-578-4722</td>
+                <td>Mar 10, 2021</td>
+                <td>Mar 29, 2021</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>**Datos generados aleatoriamente con el uso de https://generatedata.com</p>
+</section>
+    
+    <footer>
+        <div class="Contacto" id="Contacto">
+            <p>Estamos ubivcados en: [Direccon de pasteleria]</p>
+            <p>Horarios de atencion: [horarios de atencion]</p>
+            <p>Pagina creada para maquetacion de la mision front-end de LaunchX</p>
+            <p>Contacto</p>
+            <a href="https://github.com/isaaclc98"><img src="assets/GitLogo.png" alt=""></a>
+        </div>
+     </footer>
+</body>
+</html>

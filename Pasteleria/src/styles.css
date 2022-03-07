@@ -1,0 +1,148 @@
+body {
+	margin: 0;
+    max-width: 50cm;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: rgba(146, 141, 146, 0.884);
+	background: #333; 
+	font-size: 1em;
+	line-height: 1.5em;
+    padding:  0cm 1cm;
+    padding-top: 80px;
+}
+
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+strong {
+  color: #ffff;
+}
+
+header {
+	background: #333;
+	color: white;
+	height: 80px;
+
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}	
+	header a {
+		color: white;
+	}
+
+/*
+ * Logo
+ */
+.logo {
+	float: left;
+	padding: 0px 0 0 20px;
+	text-decoration: none;
+}
+	.logo:hover {
+		color: #0b76a6;
+	}
+	
+	.site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
+.Lista{
+	display: flex;
+	width:  100%;
+}
+.Space{
+	float:  left;
+	width: 500px;
+}
+
+.imagenes{
+	width: 50%;
+	float:  right;
+}
+
+footer {
+	background: #333;
+	color: white;
+	
+	bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    padding-top: 40px;
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	
+}
+	footer div{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+	}
+	footer img{
+		height: 80px;
+	}
+	footer p, footer a{
+		display: block;
+		padding: 0 10px;
+		text-decoration: none;
+	}
+	table{
+		width: 100%;
+		color: beige;
+	}
+	table caption{
+		font-weight: 900;
+	}

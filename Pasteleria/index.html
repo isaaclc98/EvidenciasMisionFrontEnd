@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css">
+    <title>Pasteleria</title>
+</head>
+<body>
+    <header>
+        <a href="#Inicio" class="logo"><img src="assets/logo_R.png" alt="logo pasteleria" width="100px"></a>
+        <nav class="site-name">
+            <ul>
+                <li><a href="#Lista">Lista de sabores</a></li>
+                <li><a href="#order">Pide tu propio pastel</a></li>                
+                <li><a href="pastelero.html">Ingresa</a> </li>                
+                <li><a href="#Contacto">Contacto</a> </li>                
+            </ul>
+        </nav>
+    </header>
+    <section class="Inicio" id="Inicio">
+        <div>
+            <h1>Galactic Cakes</h1>
+            <h2>Los mejores pasteles en la galaxia</h2>
+            <p>Crea tu propio pastel con nuestra variedad de sabores y adornos</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, veritatis laudantium, 
+                repudiandae quasi rem molestiae vitae consequuntur voluptate aperiam deleniti quo enim 
+                magni? Maxime,dolorum? Recusandae veritatis nihil vel. Amet?</p> 
+        </div>
+    </section>
+  
+    
+    <section class="Lista" id="Lista">
+        <div>
+            <ul>
+            <h3>Lista de cubiertas disponibles</h3>
+                <li>Chocolate</li>
+                <li>Fresa</li>
+                <li>Vainilla</li>
+                <li>Crema pastelera</li>
+                <li>Mermelada</li>
+            </ul>
+            <ul>
+            <h3>Tipos de pan</h3>
+               <li>Chocolate</li>
+               <li>Vainilla</li>
+               <li>Queso</li>
+               <li>Mil ojas</li> 
+            </ul>
+            <ul>
+                <h3>Extras</h3>
+                <li>Chocolate</li>
+                <li>Fruta</li>
+                <li>Chantiyi</li>
+                <li>Crema pastelera</li>
+            </ul>
+        </div>
+        <div class="Space"></div>
+        <div class="imagenes">
+            <img src="assets/cake01.jpg" alt="">
+            <img src="assets/cake02.jpg" alt="">
+        </div>
+    </section>
+
+
+    <section class="order" id="order">
+        <div class="heading">
+           <span>Ordenar ahora</span>
+           <h3>Servicio a domicilio</h3>
+        </div>
+
+        <form action="">
+           <div class="box-container">
+              <div class="box">
+                 <div class="inputBox">
+                    <span>Nombre completo</span>
+                    <input type="text" placeholder="ingrese su nombre">
+                 </div>
+                 <div class="inputBox">
+                    <span>qué pastel necesita</span>
+                    <input type="text" placeholder="ingrese el nombre de pastel">
+                 </div>
+                 <div class="inputBox">
+                    <span>detalles</span>
+                    <input type="text" placeholder="especifique los detalles de su orden">
+                 </div>
+                 <div class="inputBox">
+                    <span>your address</span>
+                    <textarea name="" placeholder="ingrese su dirección" id="" cols="30" rows="10"></textarea>
+                 </div>
+              </div>
+              <div class="box">
+                 <div class="inputBox">
+                    <span>numero</span>
+                    <input type="number" placeholder="ingresa tu numero">
+                 </div>
+                 <div class="inputBox">
+                    <span>cantidad de piezas</span>
+                    <input type="number" placeholder="ingrese el numero de productos">
+                 </div>
+                 <div class="inputBox">
+                    <span>cuando lo necesitas</span>
+                    <input type="datetime-local">
+                 </div>
+              </div>
+           </div>
+           <input type="submit" value="Ordenar Ahora" class="btn">
+        </form>
+        
+     </section>
+    <footer>
+       <div class="Contacto" id="Contacto">
+         <p>Estamos ubivcados en: [Direccon de pasteleria]</p>
+         <p>Horarios de atencion: [Horarios de atencion]</p>
+         <p>Pagina creada para maquetacion de la mision front-end de LaunchX</p>
+         <p>Contacto</p>
+         <a href="https://github.com/isaaclc98"><img src="assets/GitLogo.png" alt=""></a>
+       </div>
+    </footer>
+</body>
+</html>
