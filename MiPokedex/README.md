@@ -1,35 +1,8 @@
 # MiPokedex
 
-This template should help get you started developing with Vue 3 in Vite.
+Este es el codigo utilizado para construir una pokedex, utiliza la [pokeAPI](https://pokeapi.co) para desplegar los datos de los pokes.
 
-## Recommended IDE Setup
+Esta aplicacion se realizo para el curso de LaunchX (2022) con lo aprendido en el curso y con ayuda de esta [guia](https://leonidasesteban.com/pokedex#listas)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+Asi se [ve](https://isaaclc98.github.io/MiPokedex/)
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
